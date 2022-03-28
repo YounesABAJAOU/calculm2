@@ -1,6 +1,6 @@
 function calcul(){
-var longueur = parseFloat(document.getElementById("longueur").value);
-var largeur = parseFloat(document.getElementById("largeur").value);
+let longueur = parseFloat(document.getElementById("longueur").value);
+let largeur = parseFloat(document.getElementById("largeur").value);
 let btn = document.getElementById("btn")
 btn.addEventListener("click", function(){
     document.getElementById('resultat').value = longueur*largeur+" m2";
